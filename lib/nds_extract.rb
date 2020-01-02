@@ -19,7 +19,9 @@ end
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
   nil
+  puts "="*20
   puts nds.inspect
+  puts "="*20
   result = {}
   row_index = 0 
   
